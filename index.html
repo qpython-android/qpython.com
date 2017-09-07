@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>QPython - Python on Android</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+	<link rel="icon" href="./favicon.ico" type="image/x-icon"/> 
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400,500,600" rel="stylesheet">
+</head>
+<body>
+	<header>
+		<div class="contain">
+			<div class="logo">
+				<a href="/">
+					<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFAAAABQCAMAAAC5zwKfAAABSlBMVEUAAAD////tzQD////////0++9bvBr///////9JsgDszQDpywBJswBNsgD////rzQD9/f3///9IswDtzwLs0ADv0xnrzQD////tzgDszQD///9ItABbtwDrzADlzADz1QhJswD11QCjwQBRswD////rzQD68rnRzhl9vQZXtgD+/O7///9vuQDtzgBFsgDszQD////u0xqhwAD//vfszgBJswD////tzQDtzAD////////tzgD////xzQD0+u9auhvszgD01AD/++zy1AD///8mqgBOsQDo0QBVqgD////szQBJswD21QDtzgBMuQBHsgDx0gBJtAD+++vu0hT9/O5DsgDw0QDuzwD79MT0zwDwzgDMyABJtwDy2Tvz0wDizACQvgBuuQD83AD62ADy1RWTwwBEuAD+/vLy20bp1zdewhvm0ABvugBduQAoNfDgAAAASXRSTlMAkJldRP7+rHldzTv0IepwFMSrRBv+ZlPvo4ZH/sRdRPrEWEUwMP7+/v76+Pf09OLg0NDKwLayp6aLgn14bF1dXVlEOyYbGhYJ58E/AgAAAS5JREFUWMPt00dXwkAQwPG1KxYsWLDR7b333oigkWJF0AS7fv+ru8OTJEt2NU+O87vO7v8ybwhCCCGEyiRcJbC13cAL7gxSuxEisxoVeHnPnFk9P+lZSvMSmV5RsKb2/NQq/XCjULFKDDoMmpciDYa7wVodb2ncHPQvthfNSYMVUVBPeK0tpuBF05Ex2YyVI9hsTNwYxCAGCTlecDGzYzBIDd8Bl2H6ylnQM5lVqXyiEOy8BaqB9pwFe+BH8ieolMCgbXBDEozb+iU401Y0fw2GXu+Zt5FH6nMi2MjZdwcGqMB6SVAglVSY3GiamTokvC5NpbTlvwYTEIzn+o1L4YKFg/FiULyU/CWlfnxlGL9NUGcP9BVidVAtsOfrAKE+JnRCeB544IsQhBBCCP3TNxxqY5wKegTpAAAAAElFTkSuQmCC">
+				</a>
+			</div>
+			<div class="header">
+				<div class="head-mob">
+					<img src="img/img_phone.png">
+				</div>
+				<div class="head-title">
+					<h1>QPython - Python on Android</h1>
+					<p>In most cases, script can get your jobs done as good as the native application. Now you can make it with QPython's help. </p>
+					<p>QPython is a script engine which runs Python programs on android devices. It also can help developers develop android applications.</p>
+					<a href="javascript: void(0);" class="download-btn" title="click to download">
+						DOWNLOAD
+					</a>
+				</div>
+				<div class="download-box">
+					<span class="remove-box">x</span>
+					<h4>Select version download</h4>
+					<ol>
+						<li>
+							<a href="https://github.com/qpython-android/qpython/releases" target="_blank">
+								<img src="data:image/png;base64,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">
+								<div>qpython</div>
+							</a>
+						</li>
+						<li>
+							<a href="https://github.com/qpython-android/qpython3/releases" target="_blank">
+								<img src="data:image/png;base64,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">
+							</a>
+							<div>qpython3</div>
+						</li>
+					</ol>
+				</div>
+			</div>
+		</div>		
+	</header>
+	<main>
+		<div class="menu-body">
+			<div class="contain menu-box">
+				<ul class="menu-ul">
+					<li>
+						<img src="img/img_develop.png">
+						<div class="menu-desc">
+							<h3>Develop easily</h3>
+							<p>QPython includes a complete development kit which help you to develop programs with mobile. </p>
+							<!-- <a href="http://wiki.qpython.org/doc/program_guide/">View detail</a> -->
+						</div>
+					</li>
+					<li>
+						<img src="img/img_powerful.png">
+						<div class="menu-desc">
+							<h3>Powerful</h3>
+							<p>QPython is powerful, you can extend it as you want. </p>
+							<!-- <a href="http://wiki.qpython.org/doc/program_guide/">View detail</a> -->
+						</div>
+					</li>
+					<li>
+						<img src="img/img_support.png">
+						<div class="menu-desc">
+							<h3>Great Support</h3>
+							<p>Commercial support can support your development with QPython API or Embed QPython SDK, it can save your time.</p>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+
+		<div class="main-body">
+			<div class="contain">
+				<div class="main-box">
+					<h3>QPython development kit</h3>
+					<h4>Best android application script development solution</h4>
+					<ul class="main-menu">
+						<li class="current-item">
+							<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFoAAABaCAMAAAAPdrEwAAAAWlBMVEUAAAD////////////////////////////////////////////////////////////////////////////////////////////////////////szQBLrAf///8kmw0JAAAAG3RSTlMAjEa+WQsHIsa5q2FRKD4snIJ3OBIbtKWUc22kxSqXAAACOElEQVRYw82Z2Y6jMBBFb9nGgI3Nnm0m//+bMxLqcY8ghKVKnfOSSElOSoVB9i1sZOxVZbw3lepHsBE8uaK8Uds9Hl1Lt7Jw5APOklVUuE4Fi2/YoDpXUJXhMDZSQWrAIoOigqI9JjZls15YVjWl2S/PvKYcb8lJ+519UWWbxOvytlTYTt64GpupXZNjI0YbJBh/kNF1wE6GK23oeH25W+zG3i9vW9jriENE3WMVpWscpNZq9a+fAYfJdVyrecQJxqd63eccpwi6f/VBjZPUy4rsEnGaeMkwh+5g4E6YYa4WDNirma+cASwMs7XQGDBhGvyHcmDDKXwjK2uwUZcZEr4FI61P763OwUiubeo8gRUy/4oul4r+tZGlssuvsmMDXjWaiAmquNUVTa9ZkfGqk7IivFIjseM7qRGk+NVqKrcY+NVDgb8EB341XADgOwl151OrmdWKptL51VObCyuhtgUwlpBQoxzR32TUtx6KZNSkULUy6raC6WTUnYF/yKgfXlAt2BDByyi4+ARvGcEbfe3x9J71xxNckFAHN/WbXz2tDt9JqDs/lS6AC2mzwMtQfC1udhSljRkzVKW93zK/34BlkpIqZnVqRGy41U1MBw5edTpwwBCvmszscMekzrWVO5IKHqTljv9yoYVg1CIXEMnFWsJhnHyEmOh1wCny10Gzep6La9di5ngmKQrPKB2Nywf6c8LRMUSQG56IjXx+flC1e7z2KUPBHaPMzxrAbhgbf+qw+8yI/g+b4l41c8XXKgAAAABJRU5ErkJggg==">
+							<div class="item-name">
+								<h5>Terminal</h5>
+							</div>
+						</li>
+						<li>
+							<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFoAAABaCAMAAAAPdrEwAAAAWlBMVEUAAAD////////////////////////////////////////////////////////////////////////////////////////////////////////szQBLrAf///8kmw0JAAAAG3RSTlMAjEa+WQsHIsa5q2FRKD4snIJ3OBIbtKWUc22kxSqXAAACE0lEQVRYw7TSV27DMBBF0TfDXkR1tyT732YAxYmN2JZVyPOjD5EXxGCw0NhzlCHIyP2IbKpA3roTtd3l0rV0ctZTqLCXimR9x5XGHV1x5y1Fhc10Iks84KmByVLS28LSNfMPU7Fxcn1cBUEGbxkSQWEVdq3BIqZ1jOVM42ssVvvGYCEpJCa5Lyg6DlhpOJLCW/XhrLGaPh9qvNGLhE2S6DGLRY2NasGYkb4qbGZEmnvziB3GL349Z4NdKtG/+lFjp/p5Qh0SdksHhUd0RgZnwgN51MhAH+Xj5gzIYnjYhUYiE9kA99gjG8+4o9z/pflY4f8GOoWb0CJfGm3AHy1MzrQRGr8kIWcaJHGlnXmaxozZc8Zp/EgN8qbRJPygmDsdCRNlVd70LRkJedO3QRDnTzNNHzvMXvm8WpUeLABUHvnT8BWA0JVId2EadYk00/T0EulpzFaXSGsLjA4l0nAj+lOZ9KkH08Irn1cL08SIbZl0GyG7MulOIlzKpC/huzk7twEYhoEgCDhxRHWg/tt0BbIeYiC6AAf6eLcLfw0XBG4jPHzwysCL7p4n+KjCUQAHGBy7LizAiAODGYyTLgTD6A4Lh6tJsNy5SgqLtKv/DlpA1OIAkcNaEMY5hDgCn0mR845B89NzuPYPM7cMsI3eHBqHQH/yxamGCCdPmPK5L6q29VoVKbihMmsJ2AVtXFV2ZxT9B/mNbxVBw3u0AAAAAElFTkSuQmCC">
+							<div class="item-name">
+								<h5>Editor</h5>
+							</div>
+						</li>
+						<li>
+							<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFoAAABaCAMAAAAPdrEwAAAAolBMVEUAAAD////////szgD////////////////uzwD////////////////////////////////////////tzgDszQD///////9Mrgj///9MrQjxzwD////tzQBLrAf///////////9Mrgf///////////////9LrAhLrQhMrAhNrQnvzgDtzgDtzwDtzwDt0ABMrQdRrg1SrQjx1QDszQBLrAf///9Pa4mWAAAAM3RSTlMAC75eRiuLWoS4xquEdmFRBT4i5b2Yj10mxyQbtI2lnm1oOTcUEe3jlzgv1mSbRrEmHxIYRadUAAACnElEQVRYw7TWa2+bMBTG8ceWL/IdM8GYWJO0SXbTtGv7/b/atCIVUQg1jvN7icRfR0fnhZGoP7IgvZeBHXsUw70wWjXCusPBWdEobYTnuBYJrTaOdWTysWPO6DYQZKui0JadsejMrBaxygtLtV8fjIS9kgRbEU9Fhzd1gvqNcaZsjSS1VQzp6sZwJOOmqZFIUolB4R9Iuztho9OuTdg4V67CZpVTHG94oBFZIn3AKkY5MnHKsCI+cWSraVybuccV+id2ec81rsIv7Ztn7DktQVTE1aIimGsdCnAtZuSuQgHVTs4v54QiTrNbaCQKkQ0mmEExhgEjQjmK4ZMr8RYFWY8XFa1RUE3HsaVAUUK+DK06zN19Gtxhs05VGMQ9ltKPgy/Ybh8xEKF0Ogg8I5qUTY/JYFE6DTssomXl06zFf/pcPn3Ww7sK5dMwHIB3WPT76+D+w9RPpHAegGBYdf849RkpmABgulukOwNAk1ukiQZ6hZz0j48jLFE9jk1W+vvfEZY0RzBxm7RgCPY2aRsgHdb9ev9KWtpJ+ANy/Pn27N3F9MH/a87MdRCGgSAKwVmTS04iKtIhUaHQ5f9/jaOZIrKx7B3h7fOa2Os5gE6aINoOHPRgA79xfbznmoruXeDwXT6fJaPF4MpooXFlloaDbhasJ130scVS1UNjqYphoI3gAdND4wGrOwa6qyEWdNH3FhJHEw2J43p9dO+g/VTRQIrzo9dzcDxoJ5DuHnTceKQ7DIciGobjYEUXLXZn7pTQczX+sKTPU+TsLSnRSPPsPy+0IEYtvICIF2uRwzh+hIi55bJnf9Bstry4NhQzTzlJUb1NvGicF+jzagheeUKrfP5fVH1PSny9VplSSsH4KnMsq4CNqI1LLbtzKvoXb0OQnoEejPQAAAAASUVORK5CYII=">
+							<div class="item-name">
+								<h5>Explorer</h5>
+							</div>
+						</li>
+						<li>
+							<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFoAAABaCAMAAAAPdrEwAAAAdVBMVEUAAADtzQD////tzwD////////uzwDvzgD///////////////////////////////////////////////////////////////////9MrAf////////////////////////szgDszQDtzgDtzgDszQBLrAf///9l9bj7AAAAJHRSTlMAubyOCSRpPotZLKuEdmFRRwM+xJiPRDgS9hvKtKWebZaVelOITZHUAAACbElEQVRYw82Z2W7bMBBFb2jSIcVNotZ6bdPW//+JBaymbmyL2jhIzkuAPBwQ46sBOYOJ7NrGK+eUb9odkpE5qfesksaez9bIiu21dNlqLfd1qW0j+Id/isbqsvZ8ubcIsjR5h6d0uSllKJYdWLFT/GDcn5ji88WOSYFRhGRupjxnRmASwrB8hlhUOpuRIF0JTEQxVcz6uRVT06pcHzvMpDvWEyqeHWyxIKf2MFrClgUsIrB2LBnZ4n4QT0q4rOgNgoXYmVd1td0lH66zWNkjh+qdLazzuIIfAlYTDs/yXVskwNZ4QB2LFOriqB6T0yEJ3UMWKoVEqOou0bpIpS70h3Tzu9CsTCDHDWeQEOP+O3TkM/y5GWAbaSa3YyuJQb7/GuAFg0j1r/BMpFUL9h6KcEJaNU7h/fw+tdrL/i8veVr1TekNUqth+kLU+fPU/bjytr1nM0Gd9w2wfN6Y/hoe4/s6Qd2V16RopFfjerNzlkJtHQDZUKgbCUALAnVf5j2nUPM9sGOgUIPt0FY06qpFI2nUsoE3NGrjoSyN2iq4M4367AjVhAUh/BkJw0f4yYx+6JvXe94mfuix9hRnvD1BCwq10Nd6E6j7dDhLobbuenQKtc76y0J6dVfGrjjblzibCVccb7CIbz2xixkv+TL17yux6ySkT6328nZ1T6w+hduDY4U6+uCAkmnVUkUed6vUgnG6JynhQ5ru+U83tCActdANiIjHWvTDOPoRItCudYvhQXN+WTeujY2ZAxMrqnEJdKNxuoE+3RqCbnlCtvL5/EXV7PXaV1kKzlhlfq0FLN3a+IZ4tuwWGIVwRf8HCVl3J+yX1PcAAAAASUVORK5CYII=">
+							<div class="item-name">
+								<h5>QPy App</h5>
+							</div>
+						</li>
+						<li>
+							<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFoAAABaCAMAAAAPdrEwAAAA51BMVEUAAADjzAD///9MrwvvzwD///////////////////9LrQf////////////////tzgD///////////////////////////////////9MrQjtzgBNrgju0QBMrgnvzwD////////////tzgD///////9LrQjtzgD///////////////////////////////////////9MrQhLrQfszgBLrQjtzQDuzwBLrQjszgBRtA311ADtzgBPsAjx0QC6xAFMrQjtzgBMrgftzgD////RyAFLrAdLrgdMrQjtzQDHxgHszQBLrAf///8Ca5TsAAAASnRSTlMA/uouLqxuVw4HrOXSkniqTTQq8bGhOC8YpKQ5OVBQ+N7Lx8O9u7u6p4dmZWBTRkUgx9ewmZmKREQTE9gjI8d5eWBgJPKOhufn8HXnXxsAAAOcSURBVFjDtNNpb6JQFMbxp+jlcmUZEBDcte5btZvdNDNdnGS03//zjDck2pZVxd8bwgv+OTk5IKHZdDIWNU0cT6YzpMbQiFKXe8RWBwPVJj25rhDNwKmkoWUqKnUYvmAOVRXTGko4GtOJ2acuArm0bxKdHRcW5dYocjBp1JLFw+OSJhAHsRwiaBIOQmU7j0TytkyRXL6tFJBYQWnnkZAoiPCk/IFkNV0cyG1aEmIZDZXhYExtGIhxJeg4ii5cIRIVCjhSQaCIoH8aOFpe0KNmfscJ3j9p+J7zOIkRtm9jv+fj920ggNTQcTK9IcHPUpEC1YKP2GRIAWuK/stxkQrXdwttESkR2/iGKkiNQvGFJBeQmoIsYU+zkSJbww7z/4bP8/n8DbFeV6vVk/8k2H7zBD9l1+v1L8TKbTabDH4i4m5o2QlMv9zf39cQqnp3d3cTmHZkBo/eQmCamyPU3w0XlEZLh4eMwtMvpVKpAp9ysVi8CU+PCMBJphSe5t7g88qbYel9cthHcPqyVquV+PP29naJnUUul+MTF6vV6nVwGv0hOIsCoRfyZ+2pYKe88fzeX4gPtcCZbkR6+fj42OWTd7vdZ+Cp0+nwSTsPDw+LiLRrYstQEJHmSmsPT288xai75hQDgKbGpZeVSuVl+/7x8fFvm7opl8uLuLSqASA0Ls1deoNfbFPX4GLSlPDRnSTpZTabvdimM5nMIknaUQDUWXR6j6fBJUizOjCTcY405BmmvfOke1NMyHnSZIKxfZ60PYaonietitAG50kPtP/Nmb0KwkAQhLWQtIna+JcioI0gpBES/IkWJkXe/3mcqwaRXQzHYKYVhnAxt9/MCq2FByJ8jcI/n/CTEX7ouuvJvVQPuEhr27rCBbt3LlWOAh9xaO0jDkeBOcCuRVGEobXG8Kq/rSsMsVUYZmVZXswBlpnUnhNxaP2JODuT3zMTFoK2AITw5GcAQ03rCqDwCk8McNhYiWZBxDFExKE1EcdWsiSYWcoBZR2sG0BasAaM3WHbAs54GAaYkf0MEXGgKRHHES0Bwa6eAOGO1i0A+DFxdZwR3Q15iEMZ6M7A4atB+AhnjZDhvD4GDiMmUd4dQjkxieHO1w2aeGK400VSYZDWxX9daSGsWnQFka7WEpdx+gqROuGHKM3tojnp4+par2ZOYwrbrE911biu0NetIXTLE9nK5/+LqsHrtbEsBQesMse1gP1hbTzWZXfMiv4N6uzChB2G7FgAAAAASUVORK5CYII=">
+							<div class="item-name">
+								<h5>Course</h5>
+							</div>
+						</li>
+						<li>
+							<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFoAAABaCAMAAAAPdrEwAAAAWlBMVEUAAAD////////////////////////////////////////////////////////////////////////////////////////////////////////szQBLrAf///8kmw0JAAAAG3RSTlMAjEa+WQsHIsa5q2FRKD4snIJ3OBIbtKWUc22kxSqXAAACTklEQVRYw82Z6a6jMAxGP4cQErKwd5vp+7/mSNWgXM2llMXW3POnSG1PguuExsZGpkEF7b0OapjARvRUW3ejrn88+o5uztbk42ltGcjWvYoGXzBR9bWlUB73mkSW1IhFRkWWkjkm1q4N5fottU7vl5e+oAofqajwO+OiXJfF6/LOqR3iqq0bbKap2wob0YVGhvELJV1H7GS80oaIN5e7OZBO98vHEA5FwiFSMXzIjKLBQZpCrQ79PLE3VEVam/OpXW16qvdxrnCKWAzv3mhwkmZZUV4STpMuS/lNdzBwp4XFejUcanPV3zNnBAvjt1xoNZjQ7T8ZXYONWuELpWv41I0rkfEdGOl8vjZLy/DXJpY3E5MjT+BUg/R8ZVzFq67cPO3UgleNNs3zD+/UyOz6RCC8KG3Jq87KQOBV50CQ4lcrer3YkV892tfDpQa/GnUE4HsJde9zqPnUOdh1PKBeZw6zNRJqY4HJbbrd33/Z7HYThpuM+jZAkYyaFEIno+4CdC+j7jX8Q0b98IJqwYBs+xkPDNEFKJJRk8Jwk1HfBkxORu0mwBoJtbF5U2VWx/oVbwn1Kzt8L6Hu/aHH7uch5jDbkV892jm5udXzQgzEr6aw/ncys1OdlRSY1TkQqeVWtykfOHjV+cABTWCF9Prh7kylyMgdSQUP0nLHf7mihWCpRa5AJFfWEi/GyZcQc+Eznl2GA96gnufKtWtl5nRmM4nPJFcaFyzofyAebUNEueaJWMvn/zeqdrfXfkpTcEcr82c1YDe0jX9qs/tMi/4P+GNQtYVoIO0AAAAASUVORK5CYII=">
+							<div class="item-name">
+								<h5>Library</h5>
+							</div>
+						</li>
+						<li>
+							<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFoAAABaCAMAAAAPdrEwAAAAWlBMVEUAAAD///////////////////////////////////////////////////////////////////////////////////////////////////////9LrAfszQD///9AJDuVAAAAG3RSTlMAjEa+WQsHIsa5q2FRKD4snIJ3OBIbtKWUc22kxSqXAAACWklEQVRYw82ZWbLiMAxFrxzHs01Gpn7sf5tdRUGbaoZMcj3OD/xw4rooBEmYydiLIL2XQfQj2IienLFHarvzuWvpaI0jHzdr60DGdSIqPKCi6JyhUK/3qkSGxICXDIIMJbVOLG3z+WB1aKxcLq99RRqTaKr8wlyEbTVmoVsrFoh143aYzc41GjORlUSG8QM1HQYsZDjQjMR3+5NaUU6n/WSEfZWwilT1E5VR7bCSXSU+XvoSsRpdpU9nHrGB8SLe56yxifgu75hzXp33a0W9T9hM2r+qbzqBgRPhCXlQHGp1kM+VM4CF4akWGgkmZPNfRTuw4QQeqO3nuvtzY14F2hoZ34JPjdbn96rSnGpdqZw8gVMNkv8ObTWvWtv7sVMDXjWadD9/4FYHulWeqXnVWRloUrnsEjkIEvxqQdcXM/CrB3N9uDjwq+EiAN+VUHc+R82sFnQ9Orv6HrNRJdTKAKPFfBZcwo7oj2XUx/6a9xM/NzaoSSC0ZdRtgOzKqDsJfy6jPvuC6oKBTHyN64uwDRBURk3i8y2T9YvVxx6jLaO2I2BUCbUy+UeVWR3dNe8SakH5Acas7vz16BPqFdxjNgO/ejD34uZW32/EQPxqCvm/H6s6Kykwq3MQqeFWNyk3HLzq3HBAEq+a5GNzx6nWlZpuSX8mmGhJcyO9Qj3dSEM4PrUTT0MLJrVsCo5ayg+I+MdaxYdx5UeIefAZt5n1+0GzuGwb134aM6ctA9t4SeVG4wUH+hPEtWuIWHx5wr/y+f1F1eL12rcsBResMr9rATtjbfyty+4tK/q/K2JUVenWNsAAAAAASUVORK5CYII=">
+							<div class="item-name">
+								<h5>Community</h5>
+							</div>
+						</li>
+					</ul>
+					<ul class="main-desc">
+					    <li>
+					    	<p>Yes, it's regular Python console, feel free to comunicate with interpreter directly.</p>
+					    </li>
+					    <li style="display: none;">
+					    	<p>Put it in your pocket, and code whenever, wherever</p>
+					    </li>
+					    <li style="display: none;">
+					    	<p>Is too many files in your storage? backup to the cloud!</p>
+					    </li>
+					    <li style="display: none;">
+					    	<p>The easiest way to run your program!</p>
+					    </li>
+					    <li style="display: none;">
+					    	<p>How fun is it coding with python? Here are the answers!</p>
+					    </li>
+					    <li style="display: none;">
+					    	<p>All modules you love could find here!</p>
+					    </li>
+					    <li style="display: none;">
+					    	<p>The coolest code and coolest person are here waiting for you!</p>
+					    </li>
+					</ul>
+				</div>
+				<h2 class="main-h2">Support</h2>
+				<h3 class="main-h3">You can get full qpython development support from doucumentation, wiki, community etc.</h3>
+				<ul class="main-more">
+					<li>
+						<h4>Guide</h4>
+						<p>Exhaustive manuals that cover everything you need on a specific topic.</p>
+						<div class="more-desc">
+							<a href="http://wiki.qpython.org/doc/how-to-start/" target="_blank">Getting started</a>
+							<a href="http://wiki.qpython.org/doc/program_guide/" target="_blank">Programming guide</a>
+						</div>
+					</li>
+					<li>
+						<h4>Community group</h4>
+						<p>Open a discussion with the QPython community. All members can interact and help each other.</p>
+						<div class="more-desc">
+							<a href="http://qpython.org">Vist question community</a>
+							<a href="https://groups.google.com/forum/?hl=en#!forum/qpython">Vist google group</a>
+						</div>
+					</li>
+					<li>
+						<h4>Support tickets</h4>
+						<p>File a support ticket. All communication between you and QPython support staff will remain confidential.</p>
+						<div class="more-desc">
+							<a href="https://github.com/qpython-android/QPython.org/issues?state=open">File a ticket</a>
+							<a href="mailto:support@qpython.org">Send us an email</a>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</main>
+	<div class="footer">
+		<div class="contain">
+			<hr class="footer-hr">
+			<div class="footer-box">
+				<ul class="comment-ul">
+					<li>
+						<div class="comment-content">
+							“Great way to pocket program! Works great if you would like to always have a programming language right in your pocket. Write scripts anywhere!”
+						</div>
+						<div class="comment-name">
+							Jordan Stadler
+						</div>
+					</li>
+					<li style="display: none;">
+						<div class="comment-content">
+							“Simply Amazing! I can't believe this exists and I'm more amazed with what I can do with it! I can practically parse data I check daily in two clicks vs. Opening and typing in Chrome with DroidToast and Soup! I love python package names haha”
+						</div>
+						<div class="comment-name">
+							Michael Cohee
+						</div>
+					</li>
+					<li style="display: none;">
+						<div class="comment-content">
+							“It's not just python, it's Python Arsenal Django,Web,kivy,bottlepy,... exceeds my expectations :D”
+						</div>
+						<div class="comment-name">
+							Chirag jain
+						</div>
+					</li>
+				</ul>
+				<ol class="side_comment">
+					<li class="active"></li>
+					<li></li>
+					<li></li>
+				</ol>
+			</div>
+			<div class="footer-link">
+				<ol class="footer-share">
+					<li>
+						<a href="http://www.facebook.com/qpython" target="_block">
+							<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAMAAAAp4XiDAAAAWlBMVEUAAABNrQhNrAhLrAdMrQhMrQdLrQhLrAdMrQhMrQdLrQdLrQhLrAhMrghXuBRLrQdLrQhMrAlMrwhOsApPsA1LrQdMrQhMrQhMrAhLrQhNrQhMrQhSrQhLrAdk2G4SAAAAHXRSTlMAYKDugK7g1r+09rmlWwz8qHY/Mybb6cPCmYJwHxbXbosAAACpSURBVEjH3dbbDoMgDIDhamUOxkERd+b9X3NhcLfFtclM0P+KpPluaEiAmjMYiaEpJAmqKSQy2jTBqxiEvPSOSJyeoNTTyNkD8IiagEs64BJl2UQClJ4hhJlC7nlqW0feyyNPR8YqmzwVfHLcNlFtypcba9+pZXKAj2xkE88nI59oPpnZxMYfBLtUeZNNOt/W3v5pR0TWSsSOyPAngotEf/sqGKQSNFBxL2DSrLK+cffCAAAAAElFTkSuQmCC">
+						</a>
+					</li>
+					<li>
+						<a href="http://twitter.com/qpython" target="_block">
+							<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAMAAAAp4XiDAAAAh1BMVEUAAABLrAdQrwhMrQhQsg5ZtxNLrQdMrQhLrQdMrQhLrQhNrghkxyxLrQhLrAhMrgdMrQdLrQdLrAhLrQhMrQdMrQhMrglOrQhNrwlQsgtLrQdLrQdMrQhLrQhMrgdNrQhMrQlOsAlOrwxMrQdMrQdMrQdMrQhMrQhMrQhMrwdNsApLrQlLrAfa/4XgAAAALHRSTlMA+xziEQ3WvfLr50gF3qNsY/nLxrOedT4iFvatppKPXFE3KdnOi4Z+fEQwlbgweKgAAAExSURBVEjH7dHXcoMwEIXhg4Tp1XTXuJfs+z9fMsMkRgsS15n4u0PoH7EIb/+DXRdBLsss6h9bDIkFxlKPevEDwMO9Y2hXjJst/bKuG5+kusWjpc3PIJV/UL+LiDedR4rTs9mleGnomwwxcCNVYFGJgWe/nAwOWhLnKrMsqBfso9d0TBVB4f68kLXoVyxWOGA+6KW4hzYgWXIGtyaF56xYUrJA2PaSzCqWhPn64pPRlSUtzcrAODSnHf+xGTFGXDL7xEhXkFGIsWhDBg4mHZIV6ewx4SilpR8+wpTN/KVwbUA6JTSOukba0BHJ5DRWA4NjnfjEpTBabC1+xt4cZDExq9C0P9z5xDkHTGuqtetMjO7VEXRENRFYSQeTLj2T4nQTmCU+Lq4T5Lkfu9tM4O1v+QJMWYTYm6HEHAAAAABJRU5ErkJggg==">
+						</a>
+					</li>
+				</ol>
+				<ol class="footer-about">
+					<li><a href="http://qpy.io/press/about-us">About us</a></li>
+					<li><a href="http://qpy.io/press/privacy">Privacy</a></li>
+					<li><a href="http://qpy.io/faq">Help</a></li>
+				</ol>
+			</div>
+		</div>
+	</div>
+
+	<footer>
+		Copyright © 2017. QPython All rights reserved.
+	</footer>
+</body>
+<script src="js/index.js"></script>
+<script type="text/javascript"> 
+
+var _gaq = _gaq || []; 
+
+_gaq.push(['_setAccount', 'UA-34801634-1']); 
+
+_gaq.push(['_trackPageview']); 
+
+
+
+(function() { 
+
+var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true; 
+
+ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js'; 
+
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s); 
+
+})(); 
+
+</script> 
+</html>
